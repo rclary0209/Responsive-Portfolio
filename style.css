@@ -78,8 +78,8 @@ h3 {
 }
 
 nav {
-  float: right;
-  margin-top: 25px;
+  /* float: right; */
+  margin-top: 50px;
 }
 
 nav a {
@@ -216,13 +216,12 @@ input[type=submit] {
   border: 0 none;
 }
 
-
-@media screen and (max-width: 980px) {
+@media only screen and (max-width: 980px) {
   body {
     background-color: lightblue;
   }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   body {
     background-color: lightblue;
   }
@@ -234,5 +233,4 @@ input[type=submit] {
 
 #masthead {
   max-width: 640px;
-  position: fixed;
 }
